@@ -36,6 +36,7 @@ var createNewTaskElement=function(taskString){
     label.className='task';
 
     //Each elements, needs appending
+    listItem.className="inactive-mode";
     checkBox.type="checkbox";
     editInput.type="text";
     editInput.className="task";
